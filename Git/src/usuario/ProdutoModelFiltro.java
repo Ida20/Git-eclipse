@@ -16,7 +16,7 @@ public class ProdutoModelFiltro {
 	}
 
 	private EntityManager getEntityManager() {
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("configHibernate");
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("onfigHibernate");
 		if (entityManager == null) {
 			entityManager = factory.createEntityManager();
 		}
@@ -31,7 +31,7 @@ public class ProdutoModelFiltro {
 		} else {
 			hql = "FROM " + Produto.class.getName() +
 
-					" WHERE nome LIKE :search";
+					" WHERE descricao LIKE :search";
 
 			query = entityManager.createQuery(hql);
 			query.setParameter("search", search + "%");
