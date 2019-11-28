@@ -1,4 +1,4 @@
-package vitrini;
+package usuario;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

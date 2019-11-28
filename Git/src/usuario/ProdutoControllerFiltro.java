@@ -1,4 +1,4 @@
-package vitrini;
+package usuario;
 
 import java.io.IOException;
 import java.util.List;

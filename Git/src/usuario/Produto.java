@@ -1,4 +1,4 @@
-package vitrini;
+package usuario;
 
 public class Produto {
 	private int pk_produto;	

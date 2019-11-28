@@ -4,12 +4,12 @@ PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="vitrini.Produto" table="tb_produto">
+	<class name="usuario.Login" table="tb_usuario">
 		<id name="id" type="int" column="id">
 			<generator class="native" />
 		</id>
-		<property name="categoria" column="categoria" type="string" />
-		<property name="descricao" column="descricao" type="string" />
-		<property name="preco" column="preco" type="string" />
+		<property name="nome" column="nome" type="string" />
+		<property name="senha" column="senha" type="string" />
+		<property name="email" column="email" type="string" />
 	</class>
 </hibernate-mapping>
