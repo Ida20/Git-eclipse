@@ -13,14 +13,8 @@
 	<!-- GRID -->
 	<div class="container table-responsive">
 		<div class="well col-md-12">
+			//Mudei pelo eclipse
 			
-			<div class="col-md-6">
-				<button type="button" class="btn btn-primary" data-toggle="modal"
-					data-target="#add_new_record_modal">
-					<span class="glyphicon glyphicon-ok"></span> Novo
-				</button>
-			</div>
-
 
 			<div class="input-group">
 				<input name="txtFiltro" id="txtFiltro" type="text"
