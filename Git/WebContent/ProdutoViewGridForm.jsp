@@ -14,7 +14,6 @@
 	<div class="container table-responsive">
 		<div class="well col-md-12">
 			
-			//Alterado do Eclipse
 			<div class="col-md-6">
 				<button type="button" class="btn btn-primary" data-toggle="modal"
 					data-target="#add_new_record_modal">
